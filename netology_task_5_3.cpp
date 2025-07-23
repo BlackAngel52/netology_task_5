@@ -17,8 +17,8 @@ int main()
     int min_collumn{};
     int max_row{};
     int max_collumn{};
-    int min{ 10000 };
-    int max{ -10000 };
+    int min{arr[0]};
+    int max{arr[0]};
 
 
     for (int row{}; row < rows; ++row)
