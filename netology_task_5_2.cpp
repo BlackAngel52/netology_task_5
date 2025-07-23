@@ -5,8 +5,8 @@ int main()
     const int arr_len{ 10 };
     int arr[arr_len]{1,500,3,4,-50,6,7,8,9,10};
     int count{};
-    int min{10000};
-    int max{-10000};
+    int min{arr[0]};
+    int max{arr[0]};
 
 
     for (count; count < arr_len; ++count) {
